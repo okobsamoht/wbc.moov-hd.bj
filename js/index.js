@@ -1099,15 +1099,13 @@ var hd = function () {
 
 $( document ).on( "pagebeforecreate", function() {
 if (!localStorage.getItem('numero')) {
-$('#chatmain').html('\
+$('#xchatmain').html('\
         <form action="index.html"><div style="padding:10px 20px;">\
             <h3>Veuillez vous identifier!</h3>\
             <input type="tel" name="numero" id="numero" data-theme="a" placeholder="Votre numéro moov">\
             <button type="submit" class="ui-btn ui-corner-all ui-shadow ui-btn-b" id="sublog">ENTRER</button>\
         </div>\
     </form>');
-$('#footer').html('');
-$('#panel').html('');
 };
 
 $('#sublog').on('click', function () {
