@@ -1136,7 +1136,7 @@ else { localStorage.setItem('numero',$('#numero').val());
 
         //////////////start aheeva custom code////////////
         var milliseconds = new Date().getTime();
-        var url = "http://41.74.10.73:8465/ChatServer/guest/application.jsp?lang="+document.getElementById("lang").value+"&clientType=GUEST&userName="+document.getElementById("username").value +"&flag="+(new Date().getTime())+"&userEmail="
+        var url = "http://41.74.10.73:8465/moovchat/guest/application.jsp?lang="+document.getElementById("lang").value+"&clientType=GUEST&userName="+document.getElementById("username").value +"&flag="+(new Date().getTime())+"&userEmail="
                 +document.getElementById("email").value+"&attachedData={\\\"CHATTYPE\\\": \\\""+document.getElementById("brand").value+"\\\",\\\"REGNUM\\\": \\\"111222333\\\",\\\"CUSTOMERNAME\\\": \\\"Johny Walker\\\"}";
 
         //window.open(url,"chatwin"+milliseconds,'_self');
